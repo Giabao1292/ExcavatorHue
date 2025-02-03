@@ -31,6 +31,12 @@
    */
   const mobileNavToggleBtn = document.querySelector(".mobile-nav-toggle");
 
+  fetch(window.location.href).then((response) => {
+    if (!response.ok) {
+      window.location.href = "/index.html";
+    }
+  });
+
   function mobileNavToogle() {
     document.querySelector("body").classList.toggle("mobile-nav-active");
     mobileNavToggleBtn.classList.toggle("bi-list");
