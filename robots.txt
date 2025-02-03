@@ -1,0 +1,13 @@
+# Allow all search engines to index the entire site
+User-agent: *
+Disallow:
+
+# Block specific pages or directories
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Allow Googlebot to access specific directory
+User-agent: Googlebot
+Allow: /public/
