@@ -10,7 +10,7 @@
     
     <!-- Giới thiệu -->
     <url>
-        <loc>https://www.xemuchue.com/about.html</loc>
+        <loc>https://www.xemuchue.com/content/about.html</loc>
         <lastmod>2025-02-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -18,7 +18,7 @@
     
     <!-- Dịch vụ -->
     <url>
-        <loc>https://www.xemuchue.com/services.html</loc>
+        <loc>https://www.xemuchue.com/content/services.html</loc>
         <lastmod>2025-02-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -26,7 +26,7 @@
     
     <!-- Sản phẩm -->
     <url>
-        <loc>https://www.xemuchue.com/products.html</loc>
+        <loc>https://www.xemuchue.com/content/products.html</loc>
         <lastmod>2025-02-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -34,7 +34,7 @@
 
     <!-- Liên hệ -->
     <url>
-        <loc>https://www.xemuchue.com/contact.html</loc>
+        <loc>https://www.xemuchue.com/content/contact.html</loc>
         <lastmod>2025-02-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
