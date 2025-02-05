@@ -11,3 +11,7 @@ Disallow: /private/
 # Allow Googlebot to access specific directory
 User-agent: Googlebot
 Allow: /public/
+Disallow: /products.html/
+Disallow: /contact.html/
+Disallow: /about.html/
+Disallow: /services.html/
