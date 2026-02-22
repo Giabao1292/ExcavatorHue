@@ -1,0 +1,71 @@
+SEO EDIT REPORT
+Timestamp: 2026-02-22T18:59:48+07:00
+Project: xemuchue.com static HTML
+
+Lưu ý quan trọng:
+- Backup .bak KHÔNG được tạo vì người dùng chọn "Tiếp tục sửa ngay không cần backup".
+- Không tạo file HTML mới, không tạo folder seo mới, không chỉnh JS logic form/tracking.
+
+1) File: /index.html
+- Backup path: index.html.bak.20260222-1855 (not-created, per user approval)
+- Keywords used:
+  - thuê xe múc Huế
+  - thuê máy xúc Huế
+  - cho thuê xe múc theo ca Huế
+- JSON-LD added: LocalBusiness
+- Main changes:
+  - title: "Thuê xe múc Huế | Máy xúc Huế uy tín Thanh Vững"
+  - meta description cập nhật theo local + CTA gọi nhanh
+  - giữ canonical homepage
+  - cập nhật og:title/og:description/og:image
+  - H1 hero đổi sang keyword chính
+  - mở bài 40-80 từ theo hướng chuyển đổi (xe tốt, tài xế kinh nghiệm, giao nhanh)
+  - thêm CTA above-the-fold: tel + Zalo + đặt lịch
+  - cập nhật alt ảnh quan trọng theo pattern local SEO
+  - đổi H1 logo trong header thành span để tránh nhiều H1 trên 1 trang
+
+2) File: /content/services.html
+- Backup path: content/services.html.bak.20260222-1855 (not-created, per user approval)
+- Keywords used:
+  - thuê xe múc Huế
+  - thuê máy xúc Huế
+  - thuê xe múc đào móng Huế
+  - thuê xe múc san lấp mặt bằng Huế
+- JSON-LD added: không thêm (không bắt buộc cho page dịch vụ trong scope demo)
+- Main changes:
+  - title: "Thuê xe múc Huế theo ca, theo ngày | Thanh Vững"
+  - meta description + og title/description tối ưu CTR
+  - giữ canonical dịch vụ
+  - H1 đổi đúng intent local
+  - thêm đoạn mở đầu chuyển đổi ngay dưới H1 + CTA tel/Zalo
+  - H2 đổi theo long-tail
+  - cập nhật alt image theo pattern: keyword + brand/model + tại Huế
+  - bổ sung CTA cuối trang + internal links sang products/contact
+  - đổi H1 logo trong header thành span
+
+3) File: /content/products.html (dùng làm demo product detail theo hiện trạng project)
+- Backup path: content/products.html.bak.20260222-1855 (not-created, per user approval)
+- Keywords used:
+  - bán máy xúc Huế
+  - bán máy xúc cũ Huế
+  - Kobelco SK200
+  - Komatsu
+  - Hitachi Construction Machinery
+- JSON-LD added: Product
+- Main changes:
+  - title: "Bán máy xúc Kobelco SK200 tại Huế — 2015 — máy cũ tốt"
+  - meta description + og title/description theo intent mua bán
+  - giữ canonical products page hiện có
+  - H1 theo format yêu cầu product detail
+  - thêm đoạn mở đầu chuyển đổi + CTA tel/Zalo
+  - thêm bảng thông số: năm, giờ máy, tình trạng, giá, bảo hành
+  - cập nhật alt toàn bộ ảnh theo pattern local SEO + thương hiệu
+  - thêm CTA cuối trang + internal links dịch vụ/liên hệ
+  - đổi H1 logo trong header thành span
+
+Kiểm tra liên kết nội bộ chính:
+- Home -> /content/services.html -> /content/products.html -> /content/contact.html: OK
+
+Ghi chú thiếu dữ liệu/khuyến nghị tiếp theo:
+- Trang product hiện đang là trang list; đã tối ưu theo mẫu chi tiết cho 1 máy tiêu biểu (Kobelco SK200) để demo theo yêu cầu.
+- Nếu triển khai chuẩn đầy đủ SEO sản phẩm, nên tách riêng từng URL chi tiết (/san-pham/<slug>.html) khi bạn cho phép tạo file HTML mới.
